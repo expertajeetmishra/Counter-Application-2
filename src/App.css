@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -46,7 +46,7 @@
       scale(1.4);
   } */
 
- .vite {
+ /*.vite {
     z-index: 0;
     top: 107px;
     height: 26px;
@@ -181,4 +181,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */
