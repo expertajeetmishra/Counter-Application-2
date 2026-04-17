@@ -10,12 +10,14 @@
   margin-bottom: 30px;
 }
 
+/* 🔥 Responsive Grid */
 .skills-container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  gap: 100px;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 900px;
   margin: auto;
+  padding: 0 10px;
 }
 
 .skill-card {
@@ -38,4 +40,27 @@
 .skill-card p {
   margin-top: 10px;
   font-size: 14px;
+}
+
+/* 📱 Extra small devices */
+@media (max-width: 480px) {
+  .skills h2 {
+    font-size: 28px;
+  }
+
+  .skill-card {
+    padding: 15px;
+  }
+
+  .skill-card img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* 📱 Tablets */
+@media (max-width: 768px) {
+  .skills-container {
+    gap: 15px;
+  }
 }
