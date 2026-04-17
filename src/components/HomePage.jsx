@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div className="home">
       <nav className="navbar">
-        <h2 className="logo">MyPortfolio</h2>
+        <h2 className="logo"></h2>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -15,8 +15,8 @@ const HomePage = () => {
 
       <section className="hero">
         <div className="hero-text">
-          <h1>Hello, I'm <span>Your Name</span></h1>
-          <p>A Frontend Developer building modern web experiences.</p>
+          <h1>Hello, I'm <span>Ajeet Mishra</span></h1>
+          <p>Technical Trainer </p>
           <a href="#projects" className="btn">View My Work</a>
         </div>
       </section>
