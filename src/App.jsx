@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import HomePage from './components/HomePage'
+import Skills from './components/Skills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
     <>
       <section id="center">
      <HomePage/>
-        
+        <Skills/>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)}
